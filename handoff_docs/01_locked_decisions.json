@@ -1,0 +1,85 @@
+{
+  "brand_name": "AGREE",
+  "brand_tone": [
+    "smart",
+    "witty",
+    "slightly sarcastic",
+    "confident"
+  ],
+  "top_level_categories": [
+    "Agree on what to eat",
+    "Agree on what to watch"
+  ],
+  "home_entry_screen": "two cinematic choices: Agree on what to eat / Agree on what to watch",
+  "ui_style": "cinematic but clean focused, dramatic without clutter",
+  "app_icon_direction": "minimal hollow ring on dark background",
+  "design_language": "circle/ring motifs wherever functional and aesthetic",
+  "restaurant_card_fields": [
+    "photo",
+    "name",
+    "rating",
+    "distance",
+    "taste_match_percent"
+  ],
+  "show_cuisine_on_restaurant_card": false,
+  "watch_card_fields": [
+    "poster",
+    "title",
+    "rating",
+    "streaming_service",
+    "taste_match_percent"
+  ],
+  "full_screen_cards": true,
+  "swipe_only_navigation_on_cards": true,
+  "tap_card_for_details_panel": true,
+  "back_arrow_undo": "onboarding only",
+  "start_session_button": "dedicated bottom-center ring control on home, not hidden in menu",
+  "radial_behavior": "press and hold ring to expand sub-actions",
+  "radial_actions": [
+    "Search",
+    "Circles",
+    "Discover",
+    "History",
+    "Profile",
+    "Invite",
+    "Settings"
+  ],
+  "session_lobby": false,
+  "session_model": "same candidate pool for everyone, different order per user, independent pace",
+  "default_timer_seconds": 120,
+  "quickie_timer_seconds": 30,
+  "session_categories": [
+    "eat",
+    "watch"
+  ],
+  "one_backup_only": true,
+  "compatibility_display": "percentage only",
+  "compatibility_is_free": true,
+  "compatibility_labels": false,
+  "anonymous_really_want_signal": true,
+  "show_really_want_identity": false,
+  "restaurant_search_scope_launch": "restaurants only",
+  "restaurant_menus_inside_app": true,
+  "watch_data_source": "TMDB only",
+  "imdb_dependency": false,
+  "restaurant_data_model": "hybrid_cached_plus_on_demand",
+  "share_options": [
+    "text",
+    "Facebook"
+  ],
+  "contacts_import": "show all contacts and allow invites",
+  "history_visibility": "only your sessions / participant-private",
+  "spectating": false,
+  "dwell_time_signal": false,
+  "saved_items_enabled": true,
+  "favorite_circles_enabled": true,
+  "decision_count_social_proof": true,
+  "prediction_before_session": "agreement probability percentage",
+  "monetization_launch": [
+    "affiliate/reservation/delivery/streaming",
+    "sponsored relevant placements",
+    "promoted trending"
+  ],
+  "paid_tiers": false,
+  "household_account": true
+}
